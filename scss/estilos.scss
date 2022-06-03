@@ -1,12 +1,13 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+
    
-}
+
 
 .grid-contenedor{
     display: grid;
@@ -113,13 +114,23 @@ footer{
 }
 
 
-.fondo img{
+.fondo {
     width: 100%;
     height: 100%;
     animation-name: fondo1;
     animation-duration: 5s;
     animation-timing-function: ease-in;
     animation-iteration-count: infinite;
+
+    img {
+        width: 100%;
+    height: 100%;
+    animation-name: fondo1;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+
+    }
 }
 
 @keyframes fondo1{
@@ -178,9 +189,21 @@ footer{
     padding: 10px;
     text-align: center;
 }
-table, th, td {
+table{
     border: 1px solid black;
     text-align: center;
+
+    th{
+        border: 1px solid black;
+    text-align: center;
+
+    }
+
+    td{
+        border: 1px solid black;
+    text-align: center;
+
+    }
 }
 
 .padre-0{
@@ -244,7 +267,7 @@ table, th, td {
 
 
 
-/* ETIQUETAS NO USADAS
+ ETIQUETAS NO USADAS 
 
 .grid-contenedor{
     display: grid;
@@ -296,19 +319,49 @@ table, th, td {
     background-color: #9c0759;
 }
 
-.menu ul li{
+.menu {
     list-style-type: none;
     display: inline-block;
     text-align: center;
     margin: 10px;
     position: relative;
+
+    ul{
+        list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+
+    }
+
+    li{
+       list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+
+    }
 }
 
-.menu ul li:hover{
+.menu{
     background-color: #30021b;
+
+    ul{
+        background-color: #30021b;
+    }
+
+    li{
+        background-color: #30021b;
+    }
+
+    &:hover{
+        background-color: #30021b;
+    }
 }
 
-}
+
 
 .sub-menu{
     background-color: #9c0759;
@@ -349,13 +402,9 @@ nav ul li:hover>{
     margin: 30px;
 }
 
-.{
-    grid-area: imagen;
-    width:min-content;
-    height:min-content;
-        
-}
-/*
+
+ 
+
 
 
 
@@ -389,11 +438,19 @@ display: flex;
 
 
 
-footer h2{
+footer {
     font-size: 15px;
     text-align: center;
     color: #F2789F;
     font-weight: 900px;
+
+    h2 {
+    font-size: 15px;
+    text-align: center;
+    color: #F2789F;
+    font-weight: 900px;
+
+    }
 }
 
 .padre{
