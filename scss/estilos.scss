@@ -1,3 +1,6 @@
+@import "variables";
+
+
 
 *{
     margin: 0;
@@ -37,7 +40,7 @@ main{
     padding: 0;
     box-sizing: border-box;
     grid-area: foto;
-    background-color: #ff6363;
+    background-color: $color-secondary;
 }
 
 .imagen1{
@@ -91,14 +94,14 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #ff6363;
+    background-color: $color-secondary;
 }
 
 footer{
     grid-area: footer;
     text-align: center;
     padding: 15px;
-    background-color: #ff6363;
+    background-color: $color-secondary;
     font-weight: bold;
     color: black;
 }
@@ -365,7 +368,7 @@ table{
 
 .sub-menu{
     background-color: #9c0759;
-    color: #dd7db2;
+    color: $color-primary;
 }
 
 .menu ul ul{
@@ -441,13 +444,13 @@ display: flex;
 footer {
     font-size: 15px;
     text-align: center;
-    color: #F2789F;
+    color: $color-primary;
     font-weight: 900px;
 
     h2 {
     font-size: 15px;
     text-align: center;
-    color: #F2789F;
+    color: $color-primary;
     font-weight: 900px;
 
     }
